@@ -17,7 +17,7 @@
  .bottom-right{
   position: relative;
   bottom: 50px;
-	 
+  font-weight: bold;	 
   left: 100px;
   color:white;
   background-color: transparent;
