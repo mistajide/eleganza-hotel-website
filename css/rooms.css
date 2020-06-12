@@ -7,19 +7,29 @@
 body {
     font-family: 'Poppins',sans-serif;
 }
+.room{
+    height: 100vh;
+    background-color: #F5F8F5;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
 h2 {
-    font-size: 72px;
+    font-size: 72px !important;
     font-family: 'Italianno';
     font-style: normal;
     font-weight: normal;
-    line-height: 90px;
     text-transform: capitalize; 
     color: #304F71;
 }
+
 .card-title{
     font-style: normal;
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 54px;
     text-align: center;
     color: #304F71 !important;
@@ -33,27 +43,24 @@ h2 {
     color: #304F71;
 }
 .btn-primary {
-background: #989E6C !important;
-border-radius: 10px !important;
-font-size: 0.875rem !important;
-outline: none !important;
-border: none !important;
-font-weight: bold !important;
+    background: #989E6C !important;
+    border-radius: 10px !important;
+    font-size: 0.675rem !important;
+    outline: none !important;
+    border: none !important;
+    font-weight: bold !important;
 }
 .naira {
     text-decoration-line: line-through;
 }
 .amt {
-
-background: #304F71;
-border-radius: 20px 20px 0px 0px;
-
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 25px;
-text-align: center;
-color: #F5F8F5;
+    background: #304F71;
+    border-radius: 20px 20px 0px 0px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    color: #F5F8F5;
 }
 .card {
   
@@ -77,4 +84,13 @@ ul {
 }
 li {
     display: inline-flex;
+}
+p {
+    font-size: 1rem;
+}
+.icon {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
