@@ -1,0 +1,56 @@
+
+ h5{
+ 	font-size: 1.6rem;
+ 	font-family: "Italianno", sans-serif;
+ 	color: #304F71
+
+
+ }
+ h6{
+ 	font-size: 1.4rem;
+    font-family: "Poppins",sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #304F71
+}
+
+ .bottom-right{
+  position: relative;
+  bottom: 50px;
+  font-family: Poppins;
+  font-weight: bold;	 
+  left: 100px;
+  color:white;
+  background-color: transparent;
+  padding: 20px
+}
+
+.fixed-width {
+ 	width: 1100px;
+ 	margin: 0 auto;
+ }
+ .clearfix:before,
+ .clearfix:after {
+ 	content: " ";
+ 	display: table;
+ }
+ .clearfix:after {
+ 	clear: both;
+}
+.data-block {
+	margin-bottom: 3rem;
+}
+
+.portfolio:before {
+	content: " ";
+	display: block;
+	height: 2px;
+	
+	border-width: 900px;
+	margin-bottom: 1em;
+}
+
+.page-header > table {
+	border-color: cyan;
+	border-width: 50px
+}
