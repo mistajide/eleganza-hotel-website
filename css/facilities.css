@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.facilities h2 {
+    font-size: 72px !important;
+    font-family: 'Italianno';
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize; 
+    color: #304F71;
+}
+
+.facilities-desc {
+	margin-bottom: 3em;
+}
+
+
+p#boast {
+	text-transform: lowercase;
+	color: #304F71;
+}
+
+.facilities-desc .row {
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+.facility {
+	width: 25em;
+	height: 20.9em;
+}
+
+.facility h3 {
+	text-transform: uppercase;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	/*font-size: 36px;*/
+	line-height: 54px;
+	text-align: center;
+	color: #F5F8F5;
+	position: relative;
+	bottom: 2px;
+	padding-top: 290px;
+}
+
+#gym {
+	background: url(../images/gym.png);
+}
+
+#lounge {
+	background: url(../images/lounge.png);
+}
+
+#cinema {
+	background: url(../images/cinema.png);
+}
+
+#spa {
+	background: url(../images/spa.png);
+}
+
+#salon {
+	background: url(../images/salon.png);
+}
+
+#laundry {
+	background: url(../images/laundry.png);
+}
+
+#parking {
+	background: url(../images/parking-lot.png);
+}
+
+#pool {
+	background: url(../images/swimming-pool.png);
+}
+
+#restaurant {
+	background: url(../images/restaurant.png);
+}
