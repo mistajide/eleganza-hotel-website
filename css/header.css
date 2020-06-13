@@ -1,0 +1,84 @@
+body {
+    background: url("valeriia-bugaiova-_pPHgeHz1uk-unsplash.jpg") no-repeat;
+    margin: 0;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    text-decoration: none;
+}
+
+nav {
+    /* background: #f8f9fa; */
+   
+}
+
+a {
+    color: white;
+}
+
+.navcontainer {
+    background-color: transparent;
+    padding: 0 30px;
+}
+
+.innercontainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+.navbrand img {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.navlinks {
+    margin: auto;
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navlinks a {
+    display: block;
+    padding: 0.3em 1.25em;
+    color: white;
+}
+
+button {
+    position: absolute;
+    width: 20%;
+    height: 7%;
+    left: 40%;
+    top: 80%;
+
+    font-weight: bold;
+    font-family: poppins;
+    font-style: normal;
+    color: white;
+
+    background: #989E6C;
+    mix-blend-mode: lighten;
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+div.heading {
+    margin-left: 33%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+#pic {
+    width: 6rem;
+}
+
+.fa {
+    float: right;
+}
